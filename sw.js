@@ -3,21 +3,10 @@
 	Since we use 'cache with Network Update' strategy, we don't need to manually add files to be stored in cache, browser will do this for us! 
 */
 
-const cacheName = 'lost-treasure-v1.1'; /* Name your cache  */
+const cacheName = 'lost-treasure-v1.2'; /* Name your cache  */
 const filesToCache = [ /* that's all, all of the rest files will be automatically installed in cache */
   '/lost-treasure/index.html',
-  '/lost-treasure/assets/fbx/ascend-stairs.fbx',
-  '/lost-treasure/assets/fbx/climb-ladder.fbx',
-  '/lost-treasure/assets/fbx/climb-rope.fbx',
-  '/lost-treasure/assets/fbx/environment.fbx',
-  '/lost-treasure/assets/fbx/gather-objects.fbx',
-  '/lost-treasure/assets/fbx/girl-walk.fbx',
-  '/lost-treasure/assets/fbx/look-around.fbx',
-  '/lost-treasure/assets/fbx/punch.fbx',
-  '/lost-treasure/assets/fbx/push-button.fbx',
-  '/lost-treasure/assets/fbx/run.fbx',
-  '/lost-treasure/assets/fbx/stumble-backwards.fbx',
-  '/lost-treasure/assets/fbx/usb.fbx'
+  
 ] 
 
 // register service worker
