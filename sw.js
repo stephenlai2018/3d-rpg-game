@@ -4,10 +4,7 @@
 */
 
 const cacheName = 'lost-treasure-v1.2'; /* Name your cache  */
-const filesToCache = [ /* that's all, all of the rest files will be automatically installed in cache */
-  '/lost-treasure/index.html',
-  
-] 
+const filesToCache = ['/lost-treasure/index.html'] /* that's all, all of the rest files will be automatically installed in cache */
 
 // register service worker
 if ('serviceWorker' in navigator) { // || if (navigator.serviceWorker) {
